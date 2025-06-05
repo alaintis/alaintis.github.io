@@ -1,1 +1,15 @@
+title: Alain Tissier
+email: your.email@example.com
+description: >- 
+  I'm studying Computational Science at ETH Zürich. This is where I showcase my work and projects.
+baseurl: ""
+url: "https://alain-tissier.com"
 theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+social_links:
+  github: alaintis
+  linkedin: alain-tissier
+
