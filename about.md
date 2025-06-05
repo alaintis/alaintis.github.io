@@ -6,7 +6,7 @@ permalink: /about/
 
 ## 👋 About Me
 
-Hi! I'm **Alain Tissier**, a Computational Science and Engineering student at **ETH Zürich**, specializing in **Computational Finance**.
+Hi! I'm **Alain**, a Computational Science and Engineering student at **ETH Zürich**, specializing in **Computational Finance**.
 
 I enjoy blending my technical skills with an entrepreneurial mindset. Whether it’s working on simulations, diving into data, or optimizing financial models, I love tackling complex problems with a clear, data-driven approach.
 

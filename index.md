@@ -3,7 +3,7 @@ layout: home
 title: "Welcome"
 ---
 
-## 👋 Hello! I'm Alain Tissier
+## 👋 Hello! I'm Alain 
 
 I'm currently studying **Computational Science** at **ETH Zürich**.
 
