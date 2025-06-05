@@ -14,7 +14,9 @@ plugins:
 social_links:
     github: alaintis
     linkedin: alain-tissier
-   
+
+theme: minima
+
 minima:
   navigation:
     - title: "Home"

@@ -18,7 +18,7 @@ This website is my space to:
 
 Here are a few things I’ve been working on:
 
-- work in progress
+- 
 
 ---
 
