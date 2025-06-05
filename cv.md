@@ -6,7 +6,6 @@ permalink: /cv/
 
 ## Alain Tissier  
 📍 Zürich, Switzerland  
-📧 [alain.tissier@bluewin.ch](mailto:alain.tissier@bluewin.ch)  
 🔗 [LinkedIn](https://www.linkedin.com/in/alain-tissier)  
 🔗 [GitHub](https://github.com/alaintis)
 
