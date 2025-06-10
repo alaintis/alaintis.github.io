@@ -14,7 +14,7 @@ permalink: /cv/
 ### 🎓 Education
 
 **ETH Zürich**  
-Zürich, Switzerland
+Zürich, Switzerland <br>
 Bachelor’s degree in Computational Science and Engineering  
 *Specialization: Robotics*  
 2023 – 2026
