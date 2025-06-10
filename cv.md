@@ -14,19 +14,23 @@ permalink: /cv/
 ### 🎓 Education
 
 **ETH Zürich**  
+Zürich, Switzerland
 Bachelor’s degree in Computational Science and Engineering  
-*Specialization: Computational Finance*  
+*Specialization: Robotics*  
 2023 – 2026
 
 **EF International Language Campuses**  
+Noosa, Australia
 Cambridge C2 Proficiency – English  
 July 2022 – April 2023
 
 **Gymnasium Bäumlihof**  
+Basel, Switzerland
 High School Diploma (Matura) in Applied Mathematics and Physics  
 2018 – 2022
 
 **Gymnase de Burier**  
+Montreux, Switzerland
 Exchange semester  
 2021
 
