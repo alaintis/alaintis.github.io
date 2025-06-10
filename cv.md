@@ -35,16 +35,16 @@ Exchange semester
 ### 💼 Experience
 
 **Wesser & Partner** — Fundraiser  
-*May 2023 – August 2023 | Greater Zurich Area*  
+*May 2023 – August 2023 | Greater Zurich Area & Wallis*  
 - Raised over CHF 28,000 for major Swiss charities  
 - Strengthened communication and interpersonal skills  
-- Awarded the Wesser University certificate for top performance
+- Awarded the Wesser University certificate for outstanding performance
 
 ---
 
 ### 🧠 Skills
 
-- Programming: C, Python  
+- Programming: C++, C, x86 assembly, Python
 - Marketing & SEO  
 - Fundraising & Communication
 
@@ -62,5 +62,5 @@ Exchange semester
 ### 📜 Certifications
 
 - Cambridge Certificate of Proficiency in English (C2)  
-- Digital Marketing Certificate
+- Digital Marketing Certificate (Google)
 
