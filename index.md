@@ -18,7 +18,8 @@ This website is my space to:
 
 Here are a few things I’ve been working on:
 
-- 
+- ASVZ bot to register for sport courses
+- personal website built with Jekyll
 
 ---
 
