@@ -18,7 +18,7 @@ This website is my space to:
 
 Here are a few things I’ve been working on:
 
-- UrbanSync - End-to-End Multimodal(public transport, bike, walking) Route Planner for Urban Mobility (*in progress*)
+- UrbanSync - End-to-End Multimodal Route Planner for Urban Mobility (*in progress*)
 - AutoScheduler - Shift planner for small and midsize companies based on Googles OR-Tools (*in progress*)
 - ASVZ bot to register for sport courses
 - personal website built with Jekyll
