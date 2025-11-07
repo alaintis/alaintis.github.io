@@ -10,7 +10,7 @@ Hi! I'm **Alain**, a Computational Science and Engineering student at **ETH Zür
 
 I enjoy blending my technical skills with an entrepreneurial mindset. Whether it’s working on simulations, diving into data, or optimizing financial models, I love tackling complex problems with a clear, data-driven approach.
 
-But life isn't all numbers and code! I'm passionate about sports — especially **windsurfing**, which keeps me energized and focused. One of the most enriching chapters of my life was my time in **Australia**, where I not only improved my English but also embraced a new culture, nature, and perspective.
+But life isn't all numbers and code! I'm passionate about sports — especially **windsurfing**, which keeps me energized and focused. 
 
 I'm always open to collaboration, new ideas, and exciting challenges. Let’s connect and build something great.
 
