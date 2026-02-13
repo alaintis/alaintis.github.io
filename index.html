@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alain Tissier</title>
+
+  <!-- LaTeX-like styling -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/latex.css/style.min.css">
+
+  <style>
+    .two-column {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      gap: 2rem;
+      align-items: start;
+    }
+
+    img.profile {
+      width: 220px;
+      border-radius: 4px;
+    }
+
+    /* Responsive behaviour */
+    @media (max-width: 700px) {
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+
+      img.profile {
+        width: 160px;
+      }
+    }
+
+    .project {
+      margin-bottom: 1.5rem;
+    }
+
+    .project img {
+      width: 100%;
+      max-width: 300px;
+    }
+
+    .buttons a {
+      margin-right: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Alain Tissier</h1>
+
+<div class="two-column">
+
+  <div>
+    <img class="profile" src="profile.jpg" alt="Alain Tissier">
+  </div>
+
+  <div>
+    <h2>Bio</h2>
+    <p>
+      Short academic-style biography. Research interests, affiliation,
+      areas of work, etc.
+    </p>
+
+    <h2>Projects</h2>
+
+    <!-- COPY THIS BLOCK TO ADD A NEW PROJECT -->
+    <div class="project">
+      <h3>Project Title</h3>
+      <p>Short description of what this project does.</p>
+      <img src="project1.jpg" alt="Project screenshot">
+
+      <div class="buttons">
+        <a href="https://github.com/USERNAME/REPO" target="_blank">GitHub</a>
+        <a href="paper.pdf" target="_blank">PDF</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+</body>
+</html>
