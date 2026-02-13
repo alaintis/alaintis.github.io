@@ -5,6 +5,9 @@ description: >-
 baseurl: ""
 url: "https://alain-tissier.com"
 
+sass:
+  style: compressed
+
 
 plugins:
   - jekyll-feed
@@ -17,16 +20,11 @@ social_links:
 
 theme: minima
 
-minima:
-  navigation:
-    - title: "Home"
-      url: "/"
-    - title: "About"
-      url: "/about/"
-    - title: "Works"
-      url: "/works/"
-    - title: "CV"
-      url: "/cv/"
+header_pages:
+  - index.md
+  - works.md
+  - cv.md
+  - about.md
 
 
 

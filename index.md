@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Welcome"
+title: "Home"
 ---
 
 ## 👋 Hello! I'm Alain 
