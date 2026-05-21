@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <!-- Primary SEO -->
+  <title>Studying CSE at ETH Zürich — A Student's Guide | Alain Tissier</title>
+
+  <meta name="description" content="A practical guide to studying Computational Science and Engineering (BSc CSE / Rechnergestützte Wissenschaften) at ETH Zürich, written by a current student. Includes the official Wegleitung, FAQs on workload, math vs. CS balance, specializations, and career outlook." />
+
+  <link rel="canonical" href="https://alain-tissier.com/eth-guide.html" />
+  <meta name="robots" content="index,follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:title" content="Studying CSE at ETH Zürich — A Student's Guide" />
+  <meta property="og:description" content="Honest answers to the questions I get most often about the BSc in Computational Science and Engineering at ETH." />
+  <meta property="og:url" content="https://alain-tissier.com/eth-guide.html" />
+  <meta property="og:image" content="https://alain-tissier.com/assets/alain_tissier_profilfoto_dez25.jpg" />
+
+  <!-- LaTeX-like styling -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/latex.css/style.min.css">
+
+  <style>
+    html { font-size: 15px; }
+    body { line-height: 1.45; }
+
+    p { margin: .45rem 0; }
+    ul { margin: .35rem 0 .6rem 1.1rem; }
+    li { margin: .25rem 0; }
+
+    h1 { font-size: 1.85rem; margin: 0 0 .25rem 0; }
+    h2 { font-size: 1.2rem; margin: 1.4rem 0 .5rem 0; }
+    h3 { font-size: 1.05rem; margin: 1rem 0 .25rem 0; }
+
+    main {
+      max-width: 100%;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+    }
+
+    .muted { opacity: .78; }
+
+    .layout {
+      display: grid;
+      grid-template-columns: 200px minmax(0, 1fr);
+      gap: 2.25rem;
+      align-items: start;
+    }
+
+    @media (max-width: 820px) {
+      main { padding: 0 1rem; }
+      .layout { grid-template-columns: 1fr; }
+    }
+
+    section { min-width: 0; max-width: none; }
+    a { word-break: break-word; }
+
+    .profile img {
+      width: 100%;
+      max-width: 140px;
+      border-radius: 8px;
+      display: block;
+      margin-bottom: .75rem;
+    }
+
+    .profile p { margin: .2rem 0; }
+
+    @media (min-width: 821px) {
+      .profile { position: sticky; top: 1.25rem; }
+    }
+
+    .nav-back {
+      display: inline-block;
+      margin-bottom: .75rem;
+      font-size: .95rem;
+    }
+
+    .callout {
+      border-left: 3px solid rgba(0,0,0,.25);
+      padding: .35rem .85rem;
+      margin: .85rem 0;
+      background: rgba(0,0,0,.03);
+      border-radius: 0 6px 6px 0;
+    }
+
+    .faq-item {
+      padding: .6rem 0;
+      border-top: 1px solid rgba(0,0,0,.12);
+    }
+    .faq-item:first-of-type { border-top: none; padding-top: 0; }
+    .faq-q { font-weight: 600; margin: 0 0 .2rem 0; }
+    .faq-a { margin: .15rem 0 0 0; }
+
+    .pdf-frame {
+      width: 100%;
+      height: 80vh;
+      border: 1px solid rgba(0,0,0,.18);
+      border-radius: 8px;
+      margin-top: .5rem;
+      background: rgba(0,0,0,.03);
+    }
+
+    .links a {
+      display: inline-block;
+      margin-right: .5rem;
+      margin-top: .25rem;
+      padding: .12rem .5rem;
+      border: 1px solid rgba(0,0,0,.20);
+      border-radius: 999px;
+      text-decoration: none;
+      font-size: .95rem;
+    }
+
+    body, main, section {
+      max-width: 85%;
+    }
+  </style>
+</head>
+
+<body>
+<main>
+  <a class="nav-back" href="index.html">← back to home</a>
+  <h1>Studying CSE at ETH Zürich — a student's guide</h1>
+  <p class="muted">
+    An honest student's guide to the BSc in Computational Science and Engineering
+    (<em>Rechnergestützte Wissenschaften</em>) — written from three years inside the programme.
+  </p>
+
+  <div class="layout">
+
+    <aside class="profile">
+      <img src="assets/alain_tissier_profilfoto_dez25.jpg"
+           alt="Alain Tissier portrait"
+           width="140"
+           loading="lazy" decoding="async">
+      <h2>Ask me</h2>
+      <p>Happy to answer questions over LinkedIn or email — auf Deutsch, in English, or en français.</p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/alain-tissier" target="_blank" rel="noopener">alain-tissier</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/alaintis" target="_blank" rel="noopener">alaintis</a></p>
+    </aside>
+
+    <section>
+
+      <h2>Why this page</h2>
+      <p>
+        Over the last three years I've received a steady stream of messages from prospective students —
+        mostly from <em>Gymnasium</em> students in Switzerland, sometimes from people considering a switch
+        from another programme. CSE is small (around 80 students per year) and not very visible online, so
+        the same handful of questions keep coming back. This page is my attempt to answer them once, in one place.
+      </p>
+      <p>
+        None of this is official advice — for that, read the
+        <a href="#wegleitung">Wegleitung</a> further down, or contact the
+        <a href="https://ethz.ch/de/studium/bachelor/studienangebot/naturwissenschaften-und-mathematik/rechnergestuetzte-wissenschaften.html" target="_blank" rel="noopener">study coordinator</a>.
+        These are simply my personal impressions as a student in the programme.
+      </p>
+
+      <h2>Quick answers</h2>
+
+      <div class="faq-item">
+        <p class="faq-q">What is CSE, in one sentence?</p>
+        <p class="faq-a">
+          Computer Science + applied mathematics, with an emphasis on simulation, numerics, and using
+          computation to solve problems in physics, engineering, finance, robotics, and the life sciences.
+          We sit at the interface between the Mathematics and Computer Science departments.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Is it more math or more CS?</p>
+        <p class="faq-a">
+          Slightly more math than the Informatik bachelor, but the math is almost always
+          <em>a means to an end</em> — application-oriented, with proofs playing a much smaller role
+          than in a pure math degree. On the CS side we cover the core (algorithms, systems,
+          parallel programming, numerical methods) but skip most of the "classical" software engineering
+          electives that Informatik students take.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Is it harder than Informatik or Maschinenbau?</p>
+        <p class="faq-a">
+          All three are demanding ETH bachelors. My honest take: CSE is arguably the most demanding of
+          the three in terms of breadth, because you carry both the math and the CS workload at once.
+          The second year in particular is heavy — set your expectations accordingly.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Why are there only ~80 students per year?</p>
+        <p class="faq-a">
+          Mostly visibility. CSE is interdisciplinary and doesn't slot neatly into a single
+          high-school subject, so most <em>Gymis</em> never mention it. It is not capped or particularly
+          selective at entry — the basis-year filter does most of the work, as in every ETH programme.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">Do I need to be good at chemistry?</p>
+        <p class="faq-a">
+          No. Chemistry is essentially irrelevant for CSE. Physics, on the other hand, is useful — many
+          simulation courses assume some comfort with classical mechanics, fluids, and ODEs.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">What can I specialize in?</p>
+        <p class="faq-a">
+          From the 3rd year onwards (and in the Master) you have a lot of freedom. Common tracks include
+          Robotics &amp; Control, Computational Finance, Computational Physics / Astrophysics,
+          Quantum, Data Science, and Computational Biology. In practice you can pick from roughly
+          150 courses across the entire ETH catalogue, subject to a small number of mandatory modules.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">What about jobs after CSE?</p>
+        <p class="faq-a">
+          Very strong. The combination of solid math + solid CS is in demand in basically every
+          quantitatively-serious industry: finance, simulation/engineering, ML research and ML
+          infrastructure, robotics, energy, scientific software, consulting. It's not a "classical
+          engineering job" path the way Maschinenbau is — it's more of a generalist quantitative profile.
+          A meaningful fraction of CSE students continue into a Master or a PhD.
+        </p>
+      </div>
+
+      <div class="faq-item">
+        <p class="faq-q">CSE vs. switching from a non-quant programme (e.g. Econ)?</p>
+        <p class="faq-a">
+          If you specifically want more math and you enjoy programming, CSE is a great fit. If you want
+          quantitative <em>finance</em> in particular, also consider the joint
+          <strong>Quantitative Finance Master (ETH/UZH)</strong> — it may be a more direct path than
+          rebuilding from a CSE bachelor, depending on where you are in your studies.
+        </p>
+      </div>
+
+      <h2>If I could give my younger self three pieces of advice</h2>
+      <ul>
+        <li><strong>Take it seriously from week one.</strong> Try to do the homework from the start and be active, as the courses build on each other. 
+          The course load in the second year is especially demanding. </li>
+        <li><strong>Start using your electives strategically in the 3rd year.</strong> The catalogue is huge —
+            pick a coherent direction (robotics, finance, ML, physics…) early enough that your bachelor
+            thesis and Master applications have a clear story. Start to think about your electives and 
+            how you want to achieve the required credits early on (study the <a href="assets/BSc-CSE-Guidelines.pdf" download>Wegleitung</a> throughly). 
+            For example a lot of people take Introduction to Machine Learning already in the 4th semester. Such that they can take Probabilistic Artificial Intelligence or Advanced ML in the 5th semester.</li>
+        <li><strong>Get involved in a focus project or a student club.</strong> CSE is theoretical by default;
+            the practical skills (Git, Linux, CUDA, ROS, building things end-to-end) come from working
+            on real projects with people, not from lectures.</li>
+      </ul>
+
+      <div class="callout">
+        <p>
+          <strong>Heads up:</strong> the programme is genuinely demanding, especially in the second year.
+          That's worth knowing before you sign up, but it should not scare you off — the people who
+          finish are uniformly glad they did it.
+        </p>
+      </div>
+
+      <h2 id="wegleitung">Official Wegleitung (BSc CSE Guidelines)</h2>
+      <p>
+        This is the official ETH curriculum document for the BSc in Computational Science and Engineering.
+        It lists every required and elective course, credits, and the formal structure of the degree.
+        Read it before making your decision.
+      </p>
+      <div class="links">
+        <a href="assets/BSc-CSE-Guidelines.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
+        <a href="assets/BSc-CSE-Guidelines.pdf" download>Download PDF</a>
+        <a href="https://ethz.ch/de/studium/bachelor/studienangebot/naturwissenschaften-und-mathematik/rechnergestuetzte-wissenschaften.html" target="_blank" rel="noopener">ETH programme page</a>
+      </div>
+      <object class="pdf-frame" data="assets/BSc-CSE-Guidelines.pdf" type="application/pdf">
+        <p>
+          Your browser cannot display embedded PDFs.
+          <a href="assets/BSc-CSE-Guidelines.pdf" target="_blank" rel="noopener">Click here to open the Wegleitung</a>.
+        </p>
+      </object>
+
+      <h2>Useful links</h2>
+      <ul>
+        <li><a href="https://ethz.ch/de/studium/bachelor/studienangebot/naturwissenschaften-und-mathematik/rechnergestuetzte-wissenschaften.html" target="_blank" rel="noopener">BSc Rechnergestützte Wissenschaften — official ETH page</a></li>
+        <li><a href="https://ethz.ch/content/dam/ethz/special-interest/study-programme-websites/ms-compsci-and-eng-dam/documents/bachelor-studiengang/BSc-CSE-Guidelines.pdf" target="_blank" rel="noopener">BSc CSE Wegleitung (latest version on ETH website)</a></li>
+        <li><a href="https://ethz.ch/content/dam/ethz/special-interest/infk/department/Images%20and%20Content/Studies/Bachelor/Study_Guide_BSc_Informatik_2016.pdf" target="_blank" rel="noopener">BSc Informatik study guide — useful for comparison</a></li>
+      </ul>
+
+      <p class="muted" style="margin-top:1.5rem;">
+        Last updated 2026-05-21. If something here is out of date or you have a question I haven't covered,
+        please reach out — I'll add the answer to this page.
+      </p>
+
+    </section>
+  </div>
+</main>
+</body>
+</html>
